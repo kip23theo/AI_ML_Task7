@@ -1,0 +1,28 @@
+# Task 7: Support Vector Machines (SVM)
+
+## Overview
+This project demonstrates the use of **Support Vector Machines (SVMs)** for binary classification using both **linear** and **RBF (non-linear)** kernels.  
+The implementation includes preprocessing, training, visualization, hyperparameter tuning, and evaluation.
+
+## Objectives
+- Implement linear and non-linear SVM classifiers.  
+- Visualize decision boundaries using PCA.  
+- Tune `C` and `gamma` parameters via GridSearchCV.  
+- Evaluate model accuracy using cross-validation.
+
+## Tools and Libraries
+- Python 3.x  
+- Scikit-learn  
+- NumPy, Pandas, Matplotlib  
+- Joblib
+
+## Dataset
+Uses the built-in **Breast Cancer dataset** from Scikit-learn or a **custom CSV** file (binary labels required).
+
+## Steps
+1. Load and preprocess dataset  
+2. Train linear and RBF SVM models  
+3. Visualize decision boundaries (PCA-reduced data)  
+4. Tune hyperparameters (`C`, `gamma`)  
+5. Evaluate using cross-validation  
+6. Save trained model and scale
